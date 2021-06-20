@@ -28,6 +28,7 @@
 .about {
     text-align: center;
     font-family: 'Open Sans', sans-serif;;
+    font-size: 16px;
 }
 .service {
     background-image: url('/static/images/background/s_image.jpg');
@@ -38,16 +39,26 @@
     font-size: medium;
     text-align: center;  
     position: relative;  
+    font-family: 'Open Sans', sans-serif;;
+    
 }
 .service h2  {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 #space {
     padding-bottom: 100px;
 }
-.contact {
-    background-image: url('/static/images/background/c_image.jpg');
+.whatw {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;;
 }
+.portf {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;;   
+      align-items: center;
+    
+}
+
 .design {
     position: relative;
     display: flex;
@@ -111,7 +122,41 @@
     font-size: 30px;
     padding-top: 50%;
 }
+.contact {
+    background-image: url('/static/images/background/c_image.jpg');
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;;
+    
+}
+.contact h2 {
+    margin-bottom: 25px;
+    padding-top: 50px;
+}
+.btn {
+    margin-bottom: 30px;
+}
 
+input[type=text],input[type=email],#comment{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;;
+  
+}
+
+.form-control::-webkit-input-placeholder { 
+  color: white; 
+}
+.footer {
+    text-align: center;
+    margin-top: 30px;
+}
+.footer p {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;;
+
+}
     
 
 
