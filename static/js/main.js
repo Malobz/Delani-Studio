@@ -12,3 +12,8 @@ $(document).ready(function(){
         $(".pro-des").slideUp().toggle();
     })
 })
+$(document).ready(function(){
+    $(".hov").hover(function(){
+        $(this).children(".bac").fadeToggle(1000, "linear");
+    })
+})
