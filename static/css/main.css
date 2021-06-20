@@ -34,6 +34,52 @@
 #space {
     padding-bottom: 100px;
 }
+.contact {
+    background-image: url('/static/images/background/c_image.jpg');
+}
+.design {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.d-description {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    display: none;
+}
+.dev {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dev-des {
+    display: none;
+    position: absolute;
+    top: 0;
+    text-align: center;   
+}
+
+}
+.product{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+.pro-des {
+    display: none;
+    position: absolute;
+    top: 0;
+    text-align: center;  
+}
+
+
     
 
 
