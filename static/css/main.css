@@ -1,5 +1,5 @@
 .start {
-    background-image: url('/static/images/background/h_img.jpg');
+    background-image: url('../images/background/h_img.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 }
 
 .service {
-    background-image: url('/static/images/background/s_image.jpg');
+    background-image: url('../images/background/s_image.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@
 }
 
 .contact {
-    background-image: url('/static/images/background/c_image.jpg');
+    background-image: url('../images/background/c_image.jpg');
     text-align: center;
     color: white;
     font-family: 'Open Sans', sans-serif;
