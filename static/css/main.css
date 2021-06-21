@@ -5,31 +5,27 @@
     background-repeat: no-repeat;
     color: white;
     font-size: 12px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif; 
-    position: relative;
-    
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
 }
-.start h1{
-    padding: 2px;
-    margin: 5px;
-}
-.start p {
-    padding: 2px;
-}
+
+.start h1 {}
+
+.start p {}
+
 #mouse {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    bottom: 20px;
 }
-#logo {
-    margin-top: 180px;
-    size: 10px;
-}
+
+#logo {}
+
 .about {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    ;
     font-size: 16px;
 }
+
 .service {
     background-image: url('/static/images/background/s_image.jpg');
     background-size: cover;
@@ -37,126 +33,166 @@
     background-repeat: no-repeat;
     color: white;
     font-size: medium;
-    text-align: center;  
-    position: relative;  
-    font-family: 'Open Sans', sans-serif;;
-    
-}
-.service h2  {
-    padding-top: 100px;
-}
-#space {
-    padding-bottom: 100px;
-}
-.whatw {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;;
-}
-.portf {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;;   
-      align-items: center;
-    
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    height: 40vh;
 }
 
-.design {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.service h2 {}
+
+#space {}
+
+.whatw {
+    font-family: 'Open Sans', sans-serif;
 }
+
+.whatw .row {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .d-description {
-    position: absolute;
-    top: 0;
     text-align: center;
     display: none;
 }
-.dev {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 .dev-des {
     display: none;
-    position: absolute;
-    top: 0;
-    text-align: center;   
+    text-align: center;
 }
 
-}
-.product{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;  
-}
 .pro-des {
     display: none;
-    position: absolute;
-    top: 0;
-    text-align: center;  
+    text-align: center;
 }
-.port {
+
+
+/* .portf {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    ;
+    align-items: center;
+    margin-top: 70px;
+} */
+
+#portimages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-3 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 30px;
+}
+
+.imge {
+    position: relative;
+}
+
+.imge1 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: rgba(241, 240, 240, 0.582);
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s ease;
+    color: rgb(245, 16, 16);
+    left: 30px;
+    top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* .port {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+} */
 
-}
-.bac {
+
+/* .imge1 {
+    position: relative;
+} */
+
+
+/* .bac {
     display: none;
     color: rgb(241, 9, 9);
     width: 100%;
     height: 100%;
-    background-color:rgba(255, 255, 255, 0.456);
-    position:absolute;
+    background-color: rgba(255, 255, 255, 0.456);
+    position: absolute;
     top: 20px;
     left: 35px;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
     padding-top: 50%;
-}
+}  */
+
 .contact {
     background-image: url('/static/images/background/c_image.jpg');
     text-align: center;
     color: white;
-    font-family: 'Open Sans', sans-serif;;
-    
+    font-family: 'Open Sans', sans-serif;
 }
+
 .contact h2 {
     margin-bottom: 25px;
     padding-top: 50px;
 }
-.btn {
+
+.form-inline {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.form-input {
+    display: inline-flex;
     margin-bottom: 30px;
 }
 
-input[type=text],input[type=email],#comment{
-  background: transparent;
-  color: white;
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;;
-  
+.form-input input {
+    margin: 1em;
 }
 
-.form-control::-webkit-input-placeholder { 
-  color: white; 
+.btn {
+    margin-bottom: 30px;
+    background-color: white;
+    margin-top: 30px;
 }
+
+input[type=text],
+input[type=email],
+#comment {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
 .footer {
     text-align: center;
     margin-top: 30px;
 }
+
 .footer p {
     margin-top: 20px;
-    font-family: 'Open Sans', sans-serif;;
-
+    font-family: 'Open Sans', sans-serif;
+    ;
 }
-    
-
-
